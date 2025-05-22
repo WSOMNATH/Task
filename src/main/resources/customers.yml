@@ -1,0 +1,10 @@
+customers:
+  - id: 1
+    name: Somnath
+    creditLimit: 30000.0
+  - id: 2
+    name: Yash
+    creditLimit: 15000.0
+  - id: 3
+    name: Vishal
+    creditLimit: 25000.0
