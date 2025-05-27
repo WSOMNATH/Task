@@ -5,7 +5,6 @@ import com.customer.config.YamlDataLoader;
 import com.customer.model.Customer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.test.util.ReflectionTestUtils;
 
 import java.io.InputStream;
 import java.util.List;

@@ -1,8 +1,3 @@
-//package com.customer.serviceImpl;
-//
-//import java.util.List;
-//import java.util.stream.Collectors;
-//
 
 package com.customer.serviceImpl;
 

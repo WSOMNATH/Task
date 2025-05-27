@@ -6,15 +6,10 @@ package com.customer.services;
 
 
 import org.junit.jupiter.api.BeforeEach;
-
-// src/test/java/com/example/customer/service/CustomerServiceTest.java
-	
-
-	import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;
 	import org.mockito.InjectMocks;
 	import org.mockito.Mock;
 	import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import com.customer.config.YamlDataLoader;
 import com.customer.exception.CustomerNotFoundException;
@@ -23,7 +18,6 @@ import com.customer.model.Customer;
 
 import com.customer.serviceImpl.CustomerService;
 
-import java.util.Arrays;
 	import java.util.List;
 
 	import static org.junit.jupiter.api.Assertions.*;

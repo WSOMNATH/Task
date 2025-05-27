@@ -26,8 +26,6 @@ public class CustomerController {
 	public ResponseEntity<List<Customer>> getFilteredCustomers(@RequestParam String comparator,
 			@RequestParam double limit) throws InvalidComparatorException, CustomerNotFoundException {
 
-		// List<Customer> customers =
-		// customerService.getCustomersByCreditLimit(comparator, limit);
 		List<Customer> customers = customerService.getCustomersByCreditLimit(comparator, limit);
 
 		return ResponseEntity.ok(customers);
