@@ -8,3 +8,6 @@ customers:
   - id: 3
     name: Vishal
     creditLimit: 25000.0
+  - id: 4
+    name: Vaibhav
+    creditLimit: 40000.0

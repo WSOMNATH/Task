@@ -8,4 +8,7 @@ public interface ICustomer {
 	
 List<Customer>	getCustomersByCreditLimit(String comparator, double limit);
 
+
+public List<Customer> getFilteredSortedCustomers(String comparator, double limit);
+
 }
